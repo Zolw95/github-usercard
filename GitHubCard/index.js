@@ -44,7 +44,7 @@ const followersArray = [];
   </div>
 </div>
 
-*/
+*/ 
 
 /* List of LS Instructors Github username's: 
   tetondan
