@@ -114,8 +114,8 @@ const createUser = (data) => {
   gitProfile.textContent = 'Profile: ';
   gitLocation.textContent = data['location'];
   gitAddress.setAttribute('href', data['html_url']);
-  gitFollowers.textContent = data['followers'];
-  gitFollowing.textContent = data['following'];
+  gitFollowers.textContent = `Followers: ${data.followers}`;
+  gitFollowing.textContent = `Following: ${data.following}`;
   gitBio.textContent = data['bio'];
 
   // Append Elements
